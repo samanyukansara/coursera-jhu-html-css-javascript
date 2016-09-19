@@ -24,12 +24,14 @@ body {
 .product {
   border: 1px solid black;
   margin: 10px;
+  background-color: grey;
 }
 
 .product > .product-heading{
   float: right;
   width: 150px;
   border-left: 1px solid black;
+  border-bottom: 1px solid black;
   text-align: center;
   padding: 2px;
   font-size: 1.25em;
@@ -37,7 +39,6 @@ body {
 
 .product > .product-detail{
   clear: right;
-  border-top: 1px solid black;
   height: 175px;
 }
 
